@@ -6,11 +6,13 @@ if status is-interactive
     abbr -a dl --position anywhere /mnt/d/Documents\\ and\\ Settings/alexb/Downloads   
 
     # alias
-    alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+    alias htop=btop
 
     # abbr
     abbr --add nrs "npm run start"
     abbr --add nrb "npm run build"
+    abbr --add psh "powershell.exe Start-Process cmd -Verb RunAs"
 
     # https://github.com/neovim/neovim/blob/master/INSTALL.md
     set editor
